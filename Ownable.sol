@@ -1,3 +1,7 @@
+// Propiedad de un contrato
+// Por lo general, la dirección que despliega el contrato se convierte en el owner del mismo. Puedes obtener 
+// la dirección de quién realice el despliegue con msg.sender, asignárselo a una variable y, con la misma, 
+// hacer la validación del dueño del contrato.
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
