@@ -18,12 +18,15 @@ contract MiContrato {
 }
 
 
+// using openzeppeling
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MiContrato is Ownable {
+
+    function functionAccesibleToAll() public {}
 
     function functionParaElOwner() public onlyOwner {}
 }
